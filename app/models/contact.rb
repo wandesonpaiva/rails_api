@@ -1,6 +1,7 @@
 class Contact < ApplicationRecord
   belongs_to :kind
 
+=begin
   def author
     "Wandeson Paiva"
   end
@@ -16,5 +17,6 @@ class Contact < ApplicationRecord
       methods: [:author, :kind_description])#,
       #include: { :kind => { only: :description} })
   end
+=end
 
 end
