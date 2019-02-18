@@ -48,3 +48,5 @@ gem 'rails-i18n', '~> 5.1'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'pry-rails'
+
+gem 'active_model_serializers', '~> 0.10.0'
